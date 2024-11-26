@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    margin-top: 2rem;
+    color: #555;
+  }
+  
+  form {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  form input, form select {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 0.5rem 1rem;
+    background: #007bff;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  table th, table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background: #f4f4f4;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  table tbody tr:hover {
+    background: #f1f1f1;
+  }
+  
+  button.action {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  .btn-primary {
+    background-color: #007bff;
+  }
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  .btn-danger {
+    background-color: #dc3545;
+  }
+  .btn-danger:hover {
+    background-color: #a71d2a;
+  }
